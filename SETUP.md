@@ -17,4 +17,4 @@
 - LIFF URL：https://liff.line.me/2012815212-Ru3ZjSNq
 - 狀態：Developing；目前登入個人帳號為 Admin，可使用此工具。
 - Add friend option：Off；Scan QR 與 Module mode 不啟用。
-- shareTargetPicker：等待使用者確認 Agreement Regarding Use of Information 並啟用。
+- shareTargetPicker：使用者已完成協議確認，Console 開關顯示綠色啟用。

@@ -15,9 +15,15 @@
 - Chrome 實際操作拒絕 HTTP 目標網址，恢復 HTTPS 後可更新預覽。
 - 390 × 844 手機尺寸測試：無水平溢出，圖片寬 328px，分享按鈕高 52px；此為 Chrome 版面模擬，未代表 iPhone LINE 實機。
 
+- Console 實際確認 LIFF ID、正式 Endpoint、Full、openid、Add friend Off。
+- shareTargetPicker Console 開關已顯示啟用。
+- 正式頁實際完成 LIFF SDK 初始化，分享按鈕啟用；官方 edge SDK 登入請求顯示版本 2.32.0。
+- 按分享按鈕可進入 LINE Login，scope 為 openid；等待使用者完成首次登入及授權。
+- 目標 https://line.me/R/ti/p/@427ysxfl 可開啟 LINE Add friend 網頁。
+- 修正部署時舊 config.js 快取：index.html 的設定檔加入版本參數。初次部署期間舊 HTML 可能仍被快取，可在網址加 ?v=20261126-1 重新開啟。
+
 ## 待正式環境驗收
 
-- LIFF 初始化及帳號角色。
 - iPhone LINE 開啟 LIFF，顯示好友與群組選擇器。
 - 使用者確認測試收件人後，送出一則訊息。
 - 接收端圖片外觀與點擊後進入 @427ysxfl 官方帳號頁面。
