@@ -2,9 +2,12 @@
 
 輕量 HTML/CSS/JavaScript LIFF 工具。使用個人 LINE 帳號透過 Share Target Picker 分享一則只有圖片的 Flex Message，整張圖片設有 URI Action。
 
+- 正式網站：https://david03kimo.github.io/line-image-share/
+- Repository：https://github.com/david03kimo/line-image-share
+
 ## 日常使用
 
-1. 在 iPhone 的 LINE 中開啟本專案 LIFF URL。
+1. 在 iPhone 的 LINE 中開啟 [LIFF URL](https://liff.line.me/2012815212-Ru3ZjSNq)。
 2. 確認圖片及點擊目標；必要時貼上新的公開 HTTPS 圖片網址與目標網址，按「更新預覽」。
 3. 按「分享到 LINE」，確認好友或群組後送出。
 4. 成功、取消、錯誤會顯示於按鈕下方。接收者點擊圖片即開啟目標網址。
