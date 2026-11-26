@@ -18,7 +18,8 @@
 - Console 實際確認 LIFF ID、正式 Endpoint、Full、openid、Add friend Off。
 - shareTargetPicker Console 開關已顯示啟用。
 - 正式頁實際完成 LIFF SDK 初始化，分享按鈕啟用；官方 edge SDK 登入請求顯示版本 2.32.0。
-- 按分享按鈕可進入 LINE Login，scope 為 openid；等待使用者完成首次登入及授權。
+- 使用者已完成 LINE Login 與首次授權，正式頁顯示「已連接 LINE，可以分享」。
+- 實際按分享按鈕成功開啟官方 Share Target Picker，新視窗顯示好友、群組、聊天分頁；未自行選取任何收件人。
 - 目標 https://line.me/R/ti/p/@427ysxfl 可開啟 LINE Add friend 網頁。
 - 修正部署時舊 config.js 快取：index.html 的設定檔加入版本參數。初次部署期間舊 HTML 可能仍被快取，可在網址加 ?v=20261126-1 重新開啟。
 
