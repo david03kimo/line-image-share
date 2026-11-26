@@ -25,6 +25,7 @@
 - 純靜態網站，不需 npm install、資料庫或後端。
 - `config.js` 的 liffId 是公開應用程式識別碼，可以放前端。
 - 使用官方 CDN `https://static.line-scdn.net/liff/edge/2/sdk.js`，跟隨 LIFF v2 安全修正及更新。
+- 修改 config.js 後，請同步更改 index.html 中 config.js 的版本查詢參數（例如 ?v=20261126-2），避免瀏覽器沿用舊快取。
 - GitHub Pages：從 main 分支根目錄部署，HTTPS 網址須與 LIFF Endpoint URL 一致（包含專案子路徑和結尾斜線）。
 - 本機預覽：`python3 -m http.server 8765`。分享與預設圖片的完整測試請使用正式 HTTPS 站點；此工具會拒絕 HTTP 圖片網址。
 - 不可放入 Channel Secret、Channel Access Token、密碼、個人文件、.env。此工具不需要 Bot Token，也不需要改 Webhook。
